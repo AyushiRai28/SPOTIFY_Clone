@@ -4,7 +4,10 @@
     color: white;
     font-family:'Montserrat', sans-serif;
 }
-
+.header{
+    display: flex;
+    flex-direction: row;
+}
 
 .navbar{
     display: flex;
@@ -13,9 +16,10 @@
     background-color: #000000;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
-.navbar i{
+.navbar i{margin-left: 20px;
     color: white;
     font-size: 32px;
     
@@ -28,9 +32,17 @@
     background-color: #1f1f1f;
     border-radius: 50%;
     border-style: none;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+   
 }
 
-.home i{ font-size: 24px;}
+.home i{ font-size: 24px;
+    margin-left: 40px;
+    margin-top: 15px;
+    
+}
 
 
 
@@ -40,13 +52,13 @@
     color:#b3b3b3;
     display: flex;
     height: 48px;
-    width:387px;
+    width:390px;
     background-color: #1f1f1f;
-    border-radius: 10px ;
+    border-radius: 50px ;
     border-style: none;
 }
 
-.searchicon i{
+.searchicon i{margin-left: 6px;
     font-size: 24px;
     color: #b3b3b3;
     
@@ -66,14 +78,12 @@ input{
 
 
 
-.browse {
+.browse {margin-right: 10px;
     border-left: #b3b3b3;
     width:45px;
     background-color: transparent;
-    border-style: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}    
+    border-style: none;}
+   
 
 .browse i{
     
@@ -96,3 +106,34 @@ input{
     height: 40px;
     border-style: none;
     border-right: 1px solid #b3b3b3;;}
+
+.install{
+    display: flex;
+    font-weight: 700;
+    color:#b3b3b3}
+
+.install a{color: #b3b3b3;
+font-size: 14px;
+text-decoration: none;}    
+
+.install i{
+    height: 10px;
+    width: 10px;
+    font-size: 7px;
+    border:1px solid #b3b3b3;
+    border-radius: 50%;
+    padding: 5px 0 0 5px;
+color: #b3b3b3;}    
+
+.login{margin-right: 10px;}
+
+.login button{
+    color: #000000;
+    font-weight: bold;
+    height: 50px;
+    width: 108px;
+    border-style: none;
+    background-color: white;
+    border-radius: 999px;
+    transition: inherit;
+}
