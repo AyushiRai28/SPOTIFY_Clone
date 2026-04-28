@@ -1,0 +1,39 @@
+ <div class="three">
+
+                <ul>
+
+                    <p>Company</p>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">For the Record</a></li>
+
+                </ul>
+                
+                <ul>
+            
+                    <p>Communities</p>
+                    <li><a href="#">For Artists</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Vendors</a></li>
+            
+                </ul>
+
+                <ul>
+                    <p>Usefuk links</p>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Free Mobile App</a></li>
+                    <li><a href="#">Popular by Country</a></li>
+                    <li><a href="#">Import your music</a></li>
+                </ul>
+
+                <ul><a href="#"> 
+                    <li><a href="">Premium Lite</a></li>
+                    <li><a href="">Premium Standard</a></li>
+                    <li><a href="">Premium Plati</a></li>
+                    <li><a href="">Premium Student</a></li>
+                    <li><a href="">Spotify Free</a></li>
+                </a></ul>
+
+        </div>

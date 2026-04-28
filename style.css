@@ -6,9 +6,6 @@
 }
 
 
-
-
-
 body{background-color: #000000;}
 
 
@@ -66,18 +63,25 @@ body{background-color: #000000;}
     padding-right: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
    
 }
 
 .home i{ font-size: 22px;
     margin-left: 60px;
-    margin-top: 15px;
+  
     
 }
 
-
+.home :hover{
+    
+    scale: 1.2;
+}
 
 .search{
+    
     display: flex;
     align-items: center;
     color:#b3b3b3;
@@ -92,8 +96,16 @@ body{background-color: #000000;}
 .searchicon i{margin-left: 6px;
     font-size: 24px;
     color: #b3b3b3;
+    cursor: pointer;
     
 }
+
+
+.searchicon i:hover{
+    scale: 1.2;
+    color: white;
+}
+
 
 
 input{
@@ -107,7 +119,7 @@ input{
     background-color: #1f1f1f;
 }
 
-
+input:hover{background-color: #282828;}
 
 .browse {margin-right: 10px;
     border-left: #b3b3b3;
@@ -117,9 +129,19 @@ input{
    
 
 .browse i{
-    
+    cursor: pointer;
     font-size: 24px;
     color: #b3b3b3;}
+
+.browse i:hover{
+    scale: 1.2;
+    color: white;
+}
+.search:hover{
+    border:1px solid white;
+    background-color: #282828;
+}
+
 
 .facilities a{
     
@@ -136,7 +158,12 @@ input{
     display: flex;
     height: 40px;
     border-style: none;
-    border-right: 1px solid #b3b3b3;;}
+    border-right: 1px solid #b3b3b3;}
+
+.facilities a:hover{
+    scale:1.2;
+    color:white
+}    
 
 .install{
     display: flex;
@@ -157,6 +184,11 @@ text-decoration: none;}
     padding: 5px 0 0 5px;
 color: #b3b3b3;}    
 
+.install:hover{
+    scale: 1.2;
+    color: white;
+}
+
 .login{margin-right: 10px;}
 
 .login button{
@@ -168,8 +200,13 @@ color: #b3b3b3;}
     background-color: white;
     border-radius: 999px;
     transition: inherit;
+    cursor: pointer;
 }
 
+.login:hover{
+    scale: 1.1;
+    color: white;
+}
 
 /* body */
 
@@ -237,6 +274,8 @@ color: #b3b3b3;}
         margin-bottom: 20px;
     }
 
+.two button:hover{scale:1.2;}
+    
 .two::-webkit-scrollbar{width: 10px;}
 
 
@@ -303,7 +342,9 @@ color: #b3b3b3;}
         border-radius: 999px;
         cursor: pointer;}
 
-
+.four button:hover{
+    scale:1.2;
+}
 
 .music{ background: linear-gradient(
         to bottom,
@@ -376,6 +417,7 @@ margin-left: 40px;}
     color: white;
     font-family: Arial, sans-serif;
     cursor: pointer;
+    position: relative;
 }
 
 /* Image */
@@ -491,6 +533,7 @@ margin-top: 20px;
     color: white;
     font-family: Arial, sans-serif;
     cursor: pointer;
+    position: relative;
 }
 
 
@@ -515,6 +558,48 @@ margin-top: 20px;
 .play-btn:hover {
     transform: scale(1.1);
 }    
+
+.music3{height: 350px;
+   
+    border-top: 0.5px solid #808182;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music3 ul{
+    list-style: none;
+    margin-right: 80px;
+}
+
+.music3 p{
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+
+.music3 a{
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.music3 a:hover{
+    text-decoration: underline;
+}
+
+
+
+.music4{display: flex;
+padding-left: 30px;
+align-items: center;
+padding-top: 40px;
+margin-bottom: 40px;
+font-size: 13px;
+border-top: 1px solid rgb(91, 90, 90);}
+
 
 .foot{
     display: flex;
@@ -543,10 +628,11 @@ margin-top: 20px;
     margin-right: 30px;
     width: 177px;
     border-style: none;
-    border-radius: 999px;
-    
+    border-radius: 999px;    
 
 }
+
+.foot button:hover{scale:1.2;}
 
 .foot a{
     margin-left: 20px;
