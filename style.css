@@ -407,7 +407,9 @@ margin-left: 40px;}
     
 .card {
     flex-shrink: 0;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
     margin-top: 20px;
     width: 177px;
     height: 270px;
@@ -523,7 +525,9 @@ margin-top: 20px;
 
 .card2 {
     flex-shrink: 0;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
     margin-top: 10px;
     width: 177px;
     height: 270px;
